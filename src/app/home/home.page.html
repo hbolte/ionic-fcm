@@ -1,0 +1,16 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>
+            Ionic FCM Example
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <ion-list-header>Token</ion-list-header>
+        <ion-item>
+            <ion-label text-wrap *ngIf="fcmToken">{{fcmToken}}</ion-label>
+        </ion-item>
+    </ion-list>
+</ion-content>
