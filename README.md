@@ -99,8 +99,8 @@ AndroidManifest.xml
 
 ```
 {
-    "data": {
-        "body": "Data message payload with title and body, icon should be displayed correctly.",
+    "notification": {
+        "body": "Notification message payload with title and body, icon should be displayed correctly.",
         "title": "Ionic Push-Icon Test for Android"
     },
     "to": "doUWXe_5O7E:APA91bHhJ…”
